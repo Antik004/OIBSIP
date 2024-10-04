@@ -44,8 +44,13 @@ body{
     color: aliceblue;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 100px;
+    padding: 3%;
+}
+.content p{
+    font-size: medium;
+    font-style: italic;
 }
 .content2{
     z-index: -2;
@@ -56,7 +61,7 @@ body{
     font-size: 100px;
 }
 .box {
-    width: 200px;
+    width: 400px;
     height: 200px;
     background-color: rgba(230, 230, 230, 0.07); 
     margin: 20px;                
@@ -67,7 +72,14 @@ body{
     font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
-
+}
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    
+ 
 }
 @media(max-width:200px){    
     .content{
@@ -97,6 +109,17 @@ body{
         margin-right: auto;
         margin-left: auto;
        }
+       .footer{
+        margin-bottom: 0px;
+        margin-top: auto;
+        background-color:rgba(0, 0,0, 0);
+        padding: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aliceblue;
+        #png{
+            color: rgb(246, 247, 246);
+        }
+    }
        #signin{
         color: aliceblue;
         font-family:cursive;
@@ -112,7 +135,7 @@ body{
         color: aliceblue;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 5px;
         font-size:80px;
 
     }
@@ -124,10 +147,11 @@ body{
         z-index: 1; 
     }
    .content2{
-    margin-top: 500px;
+    
+
    }
    .box {
-    width: 200px;
+    width: 400px;
     height: 200px;
     background-color: rgba(230, 230, 230, 0.07); 
     margin: 20px;                
@@ -138,6 +162,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
+    
 
 }
 }
@@ -149,7 +174,7 @@ body{
         text-align: center;
         margin-top: 10px;
         font-size:75px;
-
+        
     }
 }
 @media(min-width:1500px){
@@ -160,5 +185,16 @@ body{
         text-align: center;
         margin-top: 200px;
         font-size: 100px;
+    }
+}
+.footer{
+    margin-bottom: 0px;
+    margin-top: auto;
+    background-color:rgba(230, 230, 230, 0.07);
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    #png{
+        color: rgb(246, 247, 246);
     }
 }
